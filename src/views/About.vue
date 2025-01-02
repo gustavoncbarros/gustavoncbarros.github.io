@@ -3,18 +3,18 @@
     <h1>Hello!</h1>
 
     <div class="paragraph">
-      <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
-      </div>
+      <div>I'm <strong>Gustavo Barros</strong>, a game designer passionate about bringing game ideas to life.<br/></div>
+      
+      <div style="margin-top: 20px;">I love discussing, designing, and developing games and apps of all kinds.<br/> I've experienced working on game programming, design, and 3D art throughout my experience and studies, giving me a solid foundation in different aspects of game development.</div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I'm <strong>currently looking for new opportunities</strong> to work on exciting projects, where I can bring my skills, creativity, and passion to the team.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 20px;">You can reach me at <a href="mailto:gustavoncbarros@gmail.com">gustavoncbarros@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
+
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.jpg" alt="Avatar of John" class="avatar"/> 
     </div>
 
     <div style="clear:both"></div>
@@ -31,6 +31,13 @@
 .photo {
   margin-top: 50px;
   text-align: center;
+}
+
+.avatar {
+  width: 224px; /* Set the desired width */
+  height: 224px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image scales properly without distortion */
+  border-radius: 50%; /* Makes the shape circular */
 }
 
 @media only screen and (min-width: 620px){

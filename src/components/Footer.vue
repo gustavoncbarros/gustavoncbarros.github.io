@@ -1,8 +1,6 @@
 <template>
   <div class="footer">
-    
-    <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Portfolio</a> by schouffy</div>
-    <div class="right">Reach me at <a href="mailto:my@email.com">my@email.com</a> or <router-link to="/contact">through here</router-link></div>
+        <div class="right">Reach me at <a href="mailto:gustavoncbarros@gmail.com">gustavoncbarros@gmail.com</a> or <router-link to="/contact">through here.</router-link></div>
   </div>
 </template>
 
@@ -21,9 +19,10 @@ export default Vue.extend({
 .footer {
   background-color: @bodyBgColor;
   width: 100%;
-  font-size: 0.8em;
-  opacity: 0.7;
+  font-size: 1em;
+  opacity: 0.9;
   padding-bottom: 30px;
+  
 }
 
 .left, .right {

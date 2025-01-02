@@ -5,7 +5,7 @@
     <div class="paragraph">
       <div>I'm <strong>Gustavo Barros</strong>, a game designer passionate about bringing game ideas to life.<br/></div>
       
-      <div style="margin-top: 20px;">I love discussing, designing, and developing games and apps of all kinds.<br/> I've experienced working on game programming, design, and 3D art throughout my experience and studies, giving me a solid foundation in different aspects of game development.</div>
+      <div style="margin-top: 20px;">I love discussing, designing, and developing games and apps of all kinds.<br/> I've had the opportunity to work on game programming, design, and 3D art throughout my work experience and studies, giving me a solid foundation in different aspects of game development.</div>
 
       <div style="margin-top: 20px;">I'm <strong>currently looking for new opportunities</strong> to work on exciting projects, where I can bring my skills, creativity, and passion to the team.</div>
 

@@ -53,21 +53,21 @@
 
       <div class="skill-set">
         <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <SkillRate name="Handguns"/>
+        <SkillRate name="Rifles"/>
+        <SkillRate name="Shotguns"/>
+        <SkillRate name="Machineguns"/>
+        <SkillRate name="Missile launchers"/>
+        <SkillRate name="Knives"/>
+        <SkillRate name="Hand to hand combat"/>
       </div>
 
       <div class="skill-set">
         <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <SkillRate name="Sneaking"/>
+        <SkillRate name="Negotiation"/>
+        <SkillRate name="Seduction"/>
+        <SkillRate name="Sense of humor"/>
       </div>
       <div style="clear:both" />
 
@@ -126,7 +126,7 @@ h2 {
   padding-top: 50px;
 }
 h3 {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.6em;
   margin: 0px;
   padding: 0px;

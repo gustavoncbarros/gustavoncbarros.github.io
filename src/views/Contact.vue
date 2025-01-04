@@ -52,7 +52,7 @@ li {
   }
 
   li {
-    line-height: 3em;
+    line-height: 2em;
     font-size: 1.4em;
   }
 }

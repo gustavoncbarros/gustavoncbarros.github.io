@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/avatar.jpg" alt="Photo of John" />
     </div>
 
     <div style="clear:both"></div>
@@ -161,6 +161,8 @@ h4 {
 .photo img {
   height: 300px;
   width: 300px;
+  object-fit: cover; /* Ensures the image scales properly without distortion */
+  border-radius: 50%; /* Makes the shape circular */
 }
 
 .tech-stack {

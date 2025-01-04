@@ -5,19 +5,20 @@
       </div>
       <div class="dialog" :style="{ 'background-color': color }" @click.stop>
         <h1 class="dialog-title">{{ title }}</h1>
-        <div @click="closeOverlay" class="dialog-close">
+        <div @click="$emit('close')" class="dialog-close">
           <i class="fa fa-times fa-lg fa-fw"></i>
         </div>
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
           <div class="dialog-bottom">
-            <a @click="closeOverlay" class="dialog-close-button">Close</a>
+            <a @click="$emit('close')" class="dialog-close-button">Close</a>
           </div>
         </div>
       </div>
     </div>
   </transition>
 </template>
+
 <script lang="ts">
 import Vue from "vue";
 
@@ -31,17 +32,7 @@ export default Vue.extend({
   },
   methods: {
     handleOverlayClick() {
-      this.closeOverlay();
-    },
-    closeOverlay() {
       this.$emit("close");
-      this.scrollToTop();
-    },
-    scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: "auto",
-      });
     },
   },
 });

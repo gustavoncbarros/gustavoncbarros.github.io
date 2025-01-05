@@ -39,30 +39,31 @@ export default Vue.extend({
     ProjectDetailsOverlay,
   },
   props: {
-    projects: Array
+    projects: {
+      type: Array as () => ProjectData[],
+      required: true,
+    },
   },
   data: function () {
     return {
       showPopup: false,
       popupTitle: "",
       popupColor: "",
-      popupContent: ""
+      popupContent: "",
     };
   },
   methods: {
     showDetails: function (item: ProjectData) {
-      // if (event) {
-      //   alert(event.target);
-      // }
       this.popupTitle = item.name;
       this.popupColor = item.accentColor;
       this.popupContent = item.htmlDescription;
       this.showPopup = true;
-      window.scrollTo(0,0);
+      window.scrollTo(0, 0);
     },
   },
 });
 </script>
+
 
 <style scoped>
 
